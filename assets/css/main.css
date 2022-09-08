@@ -1,0 +1,66 @@
+*{
+	padding: 0px;
+	margin:0px;
+	font-family:Arial, Verdana, Sans-serif;
+	color:#fff;
+}
+
+@keyframes piscar{
+	0% {
+		font-size:40px;
+	}
+	100%{
+		font-size:50px;
+	}
+}
+
+body{
+	background-color:rgba(0,0,0,0.6);
+}
+
+header {
+	width:80vw;
+	margin:auto;
+	text-align:center;
+	padding:20px 0px;
+}
+header span{
+	font-size:20px;
+}
+section {
+	width:80vw;
+	padding:20px;
+	text-align:center;
+	margin:auto;
+}
+section .cron{
+	width:300px;
+	height: 300px;
+	margin:auto;
+	border-radius:50%;
+	border:10px solid black;
+	text-align:center;
+	line-height:300px;
+	font-size:50px;
+	text-shadow:1px 3px 6px rgba(0,0,0,0.7);
+	box-shadow:0px 0px 10px rgba(255,255,255,0.3);
+}
+section button{
+	margin:auto;
+	padding:10px 20px;
+	margin-top:20px;
+	background-color:#28bae4;
+	color:black;
+	border:0px;
+	font-size:20px;
+}
+	#millisecond{
+		font-size:30px;
+	}
+
+.piscar{
+	animation-name:piscar;
+	animation-iteration-count: infinite;
+	animation-duration: 0.3s;
+	animation-timing-function: ease-in-out;
+}
